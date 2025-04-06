@@ -596,7 +596,7 @@ add_navbar()
 # Replace 'path/to/your/image.jpg' with the actual path to your image file
 try:
     add_bg_from_file(
-        "C:/Users/surface/Desktop/mon_tableau_de_bord/images/2.jpeg"
+        "project/images/2.jpeg"
     )  # <- REPLACE THIS WITH YOUR IMAGE PATH
 except:
     st.warning("Background image not found. Please update the path.")
